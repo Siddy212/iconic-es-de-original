@@ -1,0 +1,125 @@
+<!--
+    Theme capabilities for iconic-es-de
+-->
+
+<themeCapabilities>
+   
+   <themeName>Iconic</themeName>
+
+   <aspectRatio>16:9</aspectRatio>
+   <aspectRatio>16:10</aspectRatio>
+   <aspectRatio>4:3</aspectRatio>
+   <aspectRatio>19.5:9</aspectRatio>
+   <aspectRatio>1:1</aspectRatio>
+   <aspectRatio>21:9</aspectRatio>
+   <aspectRatio>3:2</aspectRatio>
+
+   <fontSize>small</fontSize>
+   <fontSize>medium</fontSize>
+   <fontSize>large</fontSize>
+   <fontSize>x-large</fontSize>
+
+   <colorScheme name="light-classic">
+      <label>Classic - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-classic">
+      <label>Classic - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-classic">
+      <label>Classic - Retro Gray</label>
+   </colorScheme>
+   <colorScheme name="light-modern">
+      <label>Modern - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-modern">
+      <label>Modern - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-modern">
+      <label>Modern - Retro Gray</label>
+   </colorScheme>
+   <colorScheme name="light-last-played">
+      <label>Last Played - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-last-played">
+      <label>Last Played - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-last-played">
+      <label>Last Played - Retro Gray</label>
+   </colorScheme>
+   <colorScheme name="light-custom">
+      <label>Custom - Light</label>
+   </colorScheme>
+   <colorScheme name="dark-custom">
+      <label>Custom - Dark</label>
+   </colorScheme>
+   <colorScheme name="retro-custom">
+      <label>Custom - Retro Gray</label>
+   </colorScheme>
+
+
+   
+   <transitions name="transitions">
+      <label>transitions</label>
+      <selectable>false</selectable>
+      <systemToSystem>instant</systemToSystem>
+      <systemToGamelist>instant</systemToGamelist>
+      <gamelistToGamelist>instant</gamelistToGamelist>
+      <gamelistToSystem>instant</gamelistToSystem>
+      <startupToSystem>instant</startupToSystem>
+      <startupToGamelist>instant</startupToGamelist>
+   </transitions>
+   <suppressTransitionProfiles>
+      <entry>builtin-instant</entry>
+      <entry>builtin-slide</entry>
+      <entry>builtin-fade</entry>
+   </suppressTransitionProfiles>
+
+
+   <variant name="textlist">
+      <label>Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="textlist-flipped">
+      <label>Textlist - Flipped</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel">
+      <label>Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-boxart">
+      <label>Grid: Boxart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-physical-media">
+      <label>Grid: Physical Media</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-titlescreen">
+      <label>Grid: Titlescreen</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-marquee">
+      <label>Grid: Marquee</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="textlist-simple">
+      <label>[Simple] Textlist</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="carousel-simple">
+      <label>[Simple] Carousel</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-boxart-simple">
+      <label>[Simple] Grid: Boxart</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="grid-physical-media-simple">
+      <label>[Simple] Grid: Physical Media</label>
+      <selectable>true</selectable>
+   </variant>
+
+
+
+</themeCapabilities>
